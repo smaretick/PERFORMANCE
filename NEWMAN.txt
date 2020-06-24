@@ -1,0 +1,10 @@
+1. NODE.JS (node -v)
+2. npm install -g newman
+3.in Postman right-click on collection->export 
+4.newman run ENDPOINTS.postman_collection.json > ENDPOINTS_OUT
+5.npm install -g postman-to-k6
+6.postman-to-k6 ENDPOINTS.postman_collection.json -o K6-SCRIPTEND.js
+7. brew install docker
+   https://github.com/loadimpact/k6/releases 
+     k6-v0.26.2-mac.zip
+8.  ./k6 run K6-SCRIPTEND.js
