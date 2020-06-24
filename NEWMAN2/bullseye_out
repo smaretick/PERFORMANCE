@@ -1,0 +1,238 @@
+newman
+
+Bullseye Development API
+
+❏ Production
+↳ DoSearch2
+  GET http://ws.staging.bullseyelocations.com/RestSearch.svc/DoSearch2?APIKey=4630872d-1c75-4a33-ac4c-09e553d53242&ClientID=267&CountryID=1&PostalCode=08876&Radius=5&PageSize=25 [200 OK, 10.82KB, 1001ms]
+  1. Body contains headers
+
+↳ GetUser
+  GET http://ws.staging.bullseyelocations.com/RestUser.svc/GetUser?APIKey=e1cdc610-55d8-4eb7-943b-54b123615ba9&ClientID=267&memberKey=joshua123@test.electricvine.com [200 OK, 398B, 791ms]
+
+↳ CreateUser
+  POST http://ws.staging.bullseyelocations.com/RestUser.svc/CreateUser [400 Bad Request, 344B, 274ms]
+
+↳ CreateUser copy
+  POST http://ws.staging.bullseyelocations.com/RestUser.svc/CreateUser [400 Bad Request, 344B, 202ms]
+
+↳ GetLocationByIP
+  GET http://ws.staging.bullseyelocations.com/RestSearch.svc/GetLocationByIP?APIKey=4630872d-1c75-4a33-ac4c-09e553d53242&ClientID=267&IPaddress=199.199.1.238 [200 OK, 359B, 376ms]
+  2. Body contains headers
+
+↳ GetClientSubsFeatures
+  GET http://ws.staging.bullseyelocations.com/RestSearch.svc/GetLocationByIP?APIKey=4630872d-1c75-4a33-ac4c-09e553d53242&ClientID=267&IPaddress=199.199.1.238 [200 OK, 359B, 123ms]
+  3. Body contains headers
+
+↳ GetGeneralClientConfig
+  GET http://ws.staging.bullseyelocations.com/RestSearch.svc/GetGeneralClientConfig?APIKey=4630872d-1c75-4a33-ac4c-09e553d53242&ClientID=267&InterfaceConfigId=1827 [200 OK, 243.54KB, 509ms]
+  4. Body contains headers
+
+↳ GetAllClientSearchSettings
+  GET http://ws.staging.bullseyelocations.com/RestSearch.svc/GetAllClientSearchSettings?APIKey=4630872d-1c75-4a33-ac4c-09e553d53242&ClientID=267 [200 OK, 17.78KB, 2.4s]
+  5. Body contains headers
+
+↳ ValidateClient
+  GET http://ws.staging.bullseyelocations.com/RestAdmin.svc/ValidateClient?APIKey=70ABCF39-D794-48D8-BBCF-F413B1AEA64C&UserName=musicstaff@musicstaff.com&Password=password [400 Bad Request, 2.88KB, 129ms]
+
+↳ Add Lead
+  POST http://ws.bullseyelocations.com/RestLead.svc/AddLead [200 OK, 424B, 531ms]
+
+❏ Staging
+↳ Add Lead
+  POST http://ws.staging.bullseyelocations.com/RestLead.svc/AddLead [200 OK, 401B, 296ms]
+
+↳ DoSearch2
+  GET http://ws.staging.bullseyelocations.com/RestSearch.svc/DoSearch2?APIKey=4630872d-1c75-4a33-ac4c-09e553d53242&ClientID=267&CountryID=1&PostalCode=08876&Radius=5&PageSize=25 [200 OK, 10.82KB, 436ms]
+  6. Body contains headers
+
+↳ GetUser
+  GET http://ws.staging.bullseyelocations.com/RestUser.svc/GetUser?APIKey=e1cdc610-55d8-4eb7-943b-54b123615ba9&ClientID=267&memberKey=joshua123@test.electricvine.com [200 OK, 398B, 219ms]
+
+↳ CreateUserScott
+  POST http://ws.staging.bullseyelocations.com/RestUser.svc/CreateUser [400 Bad Request, 344B, 180ms]
+
+↳ CreateUser
+  POST http://ws.staging.bullseyelocations.com/RestUser.svc/CreateUser [400 Bad Request, 344B, 175ms]
+
+↳ GetLocationByIP
+  GET http://ws.staging.bullseyelocations.com/RestSearch.svc/GetLocationByIP?APIKey=4630872d-1c75-4a33-ac4c-09e553d53242&ClientID=267&IPaddress=199.199.1.238 [200 OK, 359B, 146ms]
+  7. Body contains headers
+
+↳ GetClientSubsFeatures
+  GET http://ws.staging.bullseyelocations.com/RestSearch.svc/GetLocationByIP?APIKey=4630872d-1c75-4a33-ac4c-09e553d53242&ClientID=267&IPaddress=199.199.1.238 [200 OK, 359B, 124ms]
+  8. Body contains headers
+
+↳ GetGeneralClientConfig
+  GET http://ws.staging.bullseyelocations.com/RestSearch.svc/GetGeneralClientConfig?APIKey=4630872d-1c75-4a33-ac4c-09e553d53242&ClientID=267&InterfaceConfigId=1827 [200 OK, 243.54KB, 415ms]
+  9. Body contains headers
+
+↳ GetAllClientSearchSettings
+  GET http://ws.staging.bullseyelocations.com/RestSearch.svc/GetAllClientSearchSettings?APIKey=4630872d-1c75-4a33-ac4c-09e553d53242&ClientID=267 [200 OK, 17.78KB, 2.4s]
+ 10. Body contains headers
+
+↳ ValidateClient
+  GET http://ws.staging.bullseyelocations.com/RestAdmin.svc/ValidateClient?APIKey=70ABCF39-D794-48D8-BBCF-F413B1AEA64C&UserName=musicstaff@musicstaff.com&Password=password [400 Bad Request, 2.88KB, 84ms]
+
+❏ Staging 2
+↳ DoSearch2
+  GET http://leadmanagerws.staging2.electricvine.com/RestSearch.svc/DoSearch2?APIKey=dd9da999-c6e7-4f06-93e6-39dcd5a5acae&ClientID=5870&CountryID=1&PostalCode=08876&Radius=5&PageSize=25&LanguageID=&LanguageCode=FR [401 Unauthorized, 1.5KB, 5.4s]
+ 11. Body contains headers
+
+↳ GetUser
+  GET http://ws.staging.bullseyelocations.com/RestUser.svc/GetUser?APIKey=e1cdc610-55d8-4eb7-943b-54b123615ba9&ClientID=267&memberKey=joshua123@test.electricvine.com [200 OK, 398B, 230ms]
+
+↳ CreateUser
+  POST http://ws.staging.bullseyelocations.com/RestUser.svc/CreateUser [400 Bad Request, 344B, 178ms]
+
+↳ GetLocationByIP
+  GET http://ws.staging.bullseyelocations.com/RestSearch.svc/GetLocationByIP?APIKey=4630872d-1c75-4a33-ac4c-09e553d53242&ClientID=267&IPaddress=199.199.1.238 [200 OK, 359B, 123ms]
+ 12. Body contains headers
+
+↳ GetClientSubsFeatures
+  GET http://ws.staging.bullseyelocations.com/RestSearch.svc/GetLocationByIP?APIKey=4630872d-1c75-4a33-ac4c-09e553d53242&ClientID=267&IPaddress=199.199.1.238 [200 OK, 359B, 118ms]
+ 13. Body contains headers
+
+↳ GetGeneralClientConfig
+  GET http://leadmanagerws.staging2.electricvine.com/RestSearch.svc/GetGeneralClientConfig?APIKey=388a9612-e6b3-42d9-a661-59535243479b&ClientID=5874&InterfaceConfigId=6157&LanguageID=48 [401 Unauthorized, 1.5KB, 273ms]
+ 14. Body contains headers
+
+↳ GetAllClientSearchSettings
+  GET http://ws.staging.bullseyelocations.com/RestSearch.svc/GetAllClientSearchSettings?APIKey=4630872d-1c75-4a33-ac4c-09e553d53242&ClientID=267 [200 OK, 17.78KB, 2.5s]
+ 15. Body contains headers
+
+↳ ValidateClient
+  GET http://ws.staging.bullseyelocations.com/RestAdmin.svc/ValidateClient?APIKey=70ABCF39-D794-48D8-BBCF-F413B1AEA64C&UserName=musicstaff@musicstaff.com&Password=password [400 Bad Request, 2.88KB, 122ms]
+
+↳ GetClientTerms
+  GET http://leadmanagerws.staging2.electricvine.com/RestSearch.svc/GetClientTerms?APIKey=dd9da999-c6e7-4f06-93e6-39dcd5a5acae&ClientID=5870&LanguageID=48 [401 Unauthorized, 1.5KB, 177ms]
+ 16. Body contains headers
+
+↳ GetCategories
+  GET http://leadmanagerws.staging2.electricvine.com/RestEventSearch.svc/GetCategories?APIKey=dd9da999-c6e7-4f06-93e6-39dcd5a5acae&ClientID=5870&LanguageCode=FR&LanguageID=148 [401 Unauthorized, 1.5KB, 241ms]
+ 17. Body contains headers
+
+↳ GetLocation
+  GET http://leadmanagerws.staging2.electricvine.com/RestSearch.svc/GetLocation?APIKey=dd9da999-c6e7-4f06-93e6-39dcd5a5acae&ClientID=5870&LanguageID=&LanguageCode=FR&LocationID=4952378&ThirdPartyID= [401 Unauthorized, 1.5KB, 217ms]
+ 18. Body contains headers
+
+↳ AddLead
+  POST http://leadmanagerws.staging2.electricvine.com/RestLead.svc/AddLead [400 Bad Request, 4.09KB, 268ms]
+ 19. Body contains headers
+
+┌─────────────────────────┬────────────────────┬────────────────────┐
+│                         │           executed │             failed │
+├─────────────────────────┼────────────────────┼────────────────────┤
+│              iterations │                  1 │                  0 │
+├─────────────────────────┼────────────────────┼────────────────────┤
+│                requests │                 32 │                  0 │
+├─────────────────────────┼────────────────────┼────────────────────┤
+│            test-scripts │                 19 │                  0 │
+├─────────────────────────┼────────────────────┼────────────────────┤
+│      prerequest-scripts │                  0 │                  0 │
+├─────────────────────────┼────────────────────┼────────────────────┤
+│              assertions │                 19 │                 19 │
+├─────────────────────────┴────────────────────┴────────────────────┤
+│ total run duration: 23.6s                                         │
+├───────────────────────────────────────────────────────────────────┤
+│ total data received: 580.05KB (approx)                            │
+├───────────────────────────────────────────────────────────────────┤
+│ average response time: 651ms [min: 84ms, max: 5.4s, s.d.: 1093ms] │
+└───────────────────────────────────────────────────────────────────┘
+
+   #  failure         detail                                           
+                                                                       
+ 01.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Production / DoSearch2"                  
+                                                                       
+ 02.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Production / GetLocationByIP"            
+                                                                       
+ 03.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Production / GetClientSubsFeatures"      
+                                                                       
+ 04.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Production / GetGeneralClientConfig"     
+                                                                       
+ 05.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Production / GetAllClientSearchSettings" 
+                                                                       
+ 06.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging / DoSearch2"                     
+                                                                       
+ 07.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging / GetLocationByIP"               
+                                                                       
+ 08.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging / GetClientSubsFeatures"         
+                                                                       
+ 09.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging / GetGeneralClientConfig"        
+                                                                       
+ 10.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging / GetAllClientSearchSettings"    
+                                                                       
+ 11.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging 2 / DoSearch2"                   
+                                                                       
+ 12.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging 2 / GetLocationByIP"             
+                                                                       
+ 13.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging 2 / GetClientSubsFeatures"       
+                                                                       
+ 14.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging 2 / GetGeneralClientConfig"      
+                                                                       
+ 15.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging 2 / GetAllClientSearchSettings"  
+                                                                       
+ 16.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging 2 / GetClientTerms"              
+                                                                       
+ 17.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging 2 / GetCategories"               
+                                                                       
+ 18.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging 2 / GetLocation"                 
+                                                                       
+ 19.  AssertionError  Body contains headers                            
+                      expected false to be truthy                      
+                      at assertion:0 in test-script                    
+                      inside "Staging 2 / AddLead"                     
