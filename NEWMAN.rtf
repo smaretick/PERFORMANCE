@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf610
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;\red255\green255\blue255;
+\red251\green2\blue7;\red0\green0\blue233;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\csgray\c0;\csgray\c100000;
+\cssrgb\c100000\c14913\c0;\cssrgb\c0\c0\c93333;}
+\margl1440\margr1440\vieww19380\viewh5500\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 1. NODE.JS (
+\f1\fs40 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 node -v
+\fs24 )
+\f0\fs36 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+2. 
+\f2\fs38 \cf3 \cb4 \CocoaLigature0 npm install -g newman\
+3.in Postman right-click on collection->export \
+4.newman run \cf5 ENDPOINTS.postman_collection.json \cf3 > \cf5 ENDPOINTS_OUT\cf3 \
+5.
+\f1\fs42 \cf2 \cb1 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec2 npm install -g postman-to-k6
+\fs24 \
+
+\fs50 6.
+\fs42 postman-to-k6
+\fs24  
+\f2\fs38 \cf5 \cb4 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 ENDPOINTS.postman_collection.json\cf3  -o \cf5 K6-SCRIPTEND.js\cf3 \
+7. brew install docker\
+   https://github.com/loadimpact/k6/releases 
+\f1\fs24 \cf2 \cb1 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec2 \
+
+\fs52      {\field{\*\fldinst{HYPERLINK "https://github.com/loadimpact/k6/releases/download/v0.26.2/k6-v0.26.2-mac.zip"}}{\fldrslt 
+\f3\fs46 \cf6 \ul \ulc6 \strokec6 k6-v0.26.2-mac.zip}}\
+8.  ./
+\fs38 k6 run 
+\f2 \cf5 \cb4 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 K6-SCRIPTEND.js
+\f1\fs24 \cf2 \cb1 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec2 \
+}

@@ -1,0 +1,5 @@
+INSTALL JMETER:
+brew install jmeter
+brew upgrade jmeter
+START JMETER:
+jmeter &
