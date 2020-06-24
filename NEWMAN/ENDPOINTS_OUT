@@ -1,0 +1,203 @@
+newman
+
+ENDPOINTS
+
+→ RnSurveyMeasureID212
+  POST https://npsdatasources.pressganey.com/api/rnsurvey [errored]
+     getaddrinfo ENOTFOUND npsdatasources.pressganey.com
+
+→ RnSurveyPRODNoSurveys
+  POST https://npsdatasources.pressganey.com/api/rnsurvey [errored]
+     getaddrinfo ENOTFOUND npsdatasources.pressganey.com
+
+→ ClinicalPROD
+  POST https://npsdatasources.pressganey.com/api/clinical [errored]
+     getaddrinfo ENOTFOUND npsdatasources.pressganey.com
+
+→ PxDataUnitPerf6Q
+  POST http://pe-orc-app1q:8881/api/unitperformance  [errored]
+     getaddrinfo ENOTFOUND pe-orc-app1q
+
+→ PxDataServiceUATscores
+  POST https://pxdataserviceuat.us.pressganey.com/api/scores  [errored]
+     getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com
+
+→ PxDataServiceUATscoresJULIA
+  POST https://pxdataserviceuat.us.pressganey.com/api/scores  [errored]
+     getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com
+
+→ NpsUnitPerformanceMeanMeasure
+  POST http://pe-orc-app1q:8891/api/NpsUnitPerformance [errored]
+     getaddrinfo ENOTFOUND pe-orc-app1q
+
+→ NsciUnitPerformanceQA
+  POST http://pe-orc-app1q:8891/api/NsciUnitPerformance [errored]
+     getaddrinfo ENOTFOUND pe-orc-app1q
+
+→ NsciUnitPerformanceFitnesse
+  POST http://pe-orc-app1q:8891/api/NsciUnitPerformance [errored]
+     getaddrinfo ENOTFOUND pe-orc-app1q
+
+→ PxRadialsGood
+  POST http://pe-orc-app1q:8881/api/radial [errored]
+     getaddrinfo ENOTFOUND pe-orc-app1q
+
+→ PxRadialsGood2
+  POST http://pe-orc-app1q:8881/api/radial [errored]
+     getaddrinfo ENOTFOUND pe-orc-app1q
+
+→ PxDataApi/unitperformancePhone
+  POST http://pe-orc-app1q:8881/api/unitperformance  [errored]
+     getaddrinfo ENOTFOUND pe-orc-app1q
+
+→ pxdataserviceuatRequestPhone
+  POST https://pxdataserviceuat.us.pressganey.com/api/scores  [errored]
+     getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com
+
+→ PxDataApi/unitperformanceMail
+  POST http://pe-orc-app1q:8881/api/unitperformance  [errored]
+     getaddrinfo ENOTFOUND pe-orc-app1q
+
+→ pxdataserviceuatRequestMail
+  POST https://pxdataserviceuat.us.pressganey.com/api/scores  [errored]
+     getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com
+
+→ pxdataserviceuatRequestMail2
+  POST https://pxdataserviceuat.us.pressganey.com/api/scores  [errored]
+     getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com
+
+→ pxdataserviceuatRequestSite&Unit
+  POST https://pxdataserviceuat.us.pressganey.com/api/scores  [errored]
+     getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com
+
+→ pxdataserviceuatRequestSite
+  POST https://pxdataserviceuat.us.pressganey.com/api/scores  [errored]
+     getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com
+
+→ pxdataserviceuatRequestUnit
+  POST https://pxdataserviceuat.us.pressganey.com/api/scores  [errored]
+     getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com
+
+→ PxDataSitePerformanceGOOD
+  POST http://pe-orc-app1q:8881/api/SitePerformance [errored]
+     getaddrinfo ENOTFOUND pe-orc-app1q
+
+┌─────────────────────────┬──────────┬──────────┐
+│                         │ executed │   failed │
+├─────────────────────────┼──────────┼──────────┤
+│              iterations │        1 │        0 │
+├─────────────────────────┼──────────┼──────────┤
+│                requests │       20 │       20 │
+├─────────────────────────┼──────────┼──────────┤
+│            test-scripts │        0 │        0 │
+├─────────────────────────┼──────────┼──────────┤
+│      prerequest-scripts │        0 │        0 │
+├─────────────────────────┼──────────┼──────────┤
+│              assertions │        0 │        0 │
+├─────────────────────────┴──────────┴──────────┤
+│ total run duration: 1030ms                    │
+├───────────────────────────────────────────────┤
+│ total data received: 0B (approx)              │
+└───────────────────────────────────────────────┘
+
+   #  failure  detail                                                   
+                                                                        
+ 01.  Error                                                             
+               getaddrinfo ENOTFOUND npsdatasources.pressganey.com      
+               at request                                               
+               inside "RnSurveyMeasureID212"                            
+                                                                        
+ 02.  Error                                                             
+               getaddrinfo ENOTFOUND npsdatasources.pressganey.com      
+               at request                                               
+               inside "RnSurveyPRODNoSurveys"                           
+                                                                        
+ 03.  Error                                                             
+               getaddrinfo ENOTFOUND npsdatasources.pressganey.com      
+               at request                                               
+               inside "ClinicalPROD"                                    
+                                                                        
+ 04.  Error                                                             
+               getaddrinfo ENOTFOUND pe-orc-app1q                       
+               at request                                               
+               inside "PxDataUnitPerf6Q"                                
+                                                                        
+ 05.  Error                                                             
+               getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com 
+               at request                                               
+               inside "PxDataServiceUATscores"                          
+                                                                        
+ 06.  Error                                                             
+               getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com 
+               at request                                               
+               inside "PxDataServiceUATscoresJULIA"                     
+                                                                        
+ 07.  Error                                                             
+               getaddrinfo ENOTFOUND pe-orc-app1q                       
+               at request                                               
+               inside "NpsUnitPerformanceMeanMeasure"                   
+                                                                        
+ 08.  Error                                                             
+               getaddrinfo ENOTFOUND pe-orc-app1q                       
+               at request                                               
+               inside "NsciUnitPerformanceQA"                           
+                                                                        
+ 09.  Error                                                             
+               getaddrinfo ENOTFOUND pe-orc-app1q                       
+               at request                                               
+               inside "NsciUnitPerformanceFitnesse"                     
+                                                                        
+ 10.  Error                                                             
+               getaddrinfo ENOTFOUND pe-orc-app1q                       
+               at request                                               
+               inside "PxRadialsGood"                                   
+                                                                        
+ 11.  Error                                                             
+               getaddrinfo ENOTFOUND pe-orc-app1q                       
+               at request                                               
+               inside "PxRadialsGood2"                                  
+                                                                        
+ 12.  Error                                                             
+               getaddrinfo ENOTFOUND pe-orc-app1q                       
+               at request                                               
+               inside "PxDataApi/unitperformancePhone"                  
+                                                                        
+ 13.  Error                                                             
+               getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com 
+               at request                                               
+               inside "pxdataserviceuatRequestPhone"                    
+                                                                        
+ 14.  Error                                                             
+               getaddrinfo ENOTFOUND pe-orc-app1q                       
+               at request                                               
+               inside "PxDataApi/unitperformanceMail"                   
+                                                                        
+ 15.  Error                                                             
+               getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com 
+               at request                                               
+               inside "pxdataserviceuatRequestMail"                     
+                                                                        
+ 16.  Error                                                             
+               getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com 
+               at request                                               
+               inside "pxdataserviceuatRequestMail2"                    
+                                                                        
+ 17.  Error                                                             
+               getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com 
+               at request                                               
+               inside "pxdataserviceuatRequestSite&Unit"                
+                                                                        
+ 18.  Error                                                             
+               getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com 
+               at request                                               
+               inside "pxdataserviceuatRequestSite"                     
+                                                                        
+ 19.  Error                                                             
+               getaddrinfo ENOTFOUND pxdataserviceuat.us.pressganey.com 
+               at request                                               
+               inside "pxdataserviceuatRequestUnit"                     
+                                                                        
+ 20.  Error                                                             
+               getaddrinfo ENOTFOUND pe-orc-app1q                       
+               at request                                               
+               inside "PxDataSitePerformanceGOOD"                       
